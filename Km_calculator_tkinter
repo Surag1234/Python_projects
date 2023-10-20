@@ -1,0 +1,28 @@
+from tkinter import *
+
+window = Tk()
+
+window.title("Miles to km Converter")
+window.minsize(300, 200)
+window.config(padx=20, pady=20)
+
+Miles_txt = Label(text="Miles", font=("Arial", 12))
+Miles_txt.grid(column=2, row=0)
+Km_txt = Label(text="Km", font=("Arial", 12))
+Km_txt.grid(column=2, row=1)
+
+km_res = Label(text="0")
+km_res.grid(column=0, row=1)
+
+E = Entry(width=7)
+E.grid(column=0, row=0)
+
+
+def configure():
+    km_res["text"] = str(1.689 * float(E.get()))
+
+
+B = Button(text="Calculate", command=configure)
+B.grid(column=9, row=12)
+
+window.mainloop()
