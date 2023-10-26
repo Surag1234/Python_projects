@@ -19,7 +19,7 @@ This repository contains a collection of fun and educational Python games and ap
 
 The classic Snake Game allows you to control a snake that grows longer as it eats food. Avoid hitting the walls or yourself to achieve the highest score.
 
-- **File**: `snake_game.py`
+- **File**: `snake_game`
 
 ## Pong Game
 
@@ -35,7 +35,7 @@ Pong is a two-player game where each player controls a paddle to hit the ball an
 
 Turtle Racer is a simple game where you control a turtle to race to the finish line. Navigate obstacles and reach the goal to win.
 
-- **File**: `turtle_racer.py`
+- **File**: `turtle_racer`
 
 ## Password Manager
 
@@ -49,13 +49,12 @@ Manage your passwords securely with this Python application. Safely store and re
 
 Boost your productivity and manage your time effectively with the Pomodoro Timer. Use the Pomodoro technique to break work into intervals with short breaks in between.
 
-- **File**: `pomodoro_timer.py`
+- **File**: `pomodoro`
 
-## Flash Card Quiz
+## Flash Card Learn French
+Easily learn french by trcking the wors yet to be learnt
 
-Test your knowledge with the Flash Card Quiz game. Create your own flashcards and use them for studying or learning new topics.
-
-- **File**: `flash_card_quiz.py`
+- **File**: `flash_card`
 
 ## Car Crossing Game
 
